@@ -34,8 +34,13 @@ h1 {
 
 h2 {
   font-size: 37.9px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   line-height: 46px;
+}
+
+h3 {
+  font-size: 21.33px;
+  margin-bottom: 9px;
 }
 
 header nav ul {
@@ -64,10 +69,40 @@ header nav ul li a:hover {
   color: #FFFFFF;
 }
 
-.about-me {
+#about-me {
   display: grid;
   margin: 0;
   padding: 109px 109px 109px 109px;
   grid-template-columns: 464px 464px;
   grid-gap: 87px;
+}
+
+#my-work {
+  width: 1275px;
+  text-align: center;
+}
+
+.my-work-grid {
+  display: grid;
+  margin: 118px 118px 118px 118px;
+  grid-template-columns: 335px 335px 335px;
+  grid-template-rows: 575px 575px;
+  grid-gap: 20px;
+}
+
+.my-work-grid article p {
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+
+section a {
+  display: inline-block;
+  width: 125px;
+  height: 23px;
+  font-size: 14px;
+  padding-top: 3px;
+  text-align: center;
+  background-color: rgba(97, 93, 93, 1);
+  color: #FFFFFF;
+  border-radius: 2px;
 }
