@@ -35,22 +35,20 @@ h1 {
 
 header nav ul {
   position: absolute;
-  width: 1270px;
+  width: 1275px;
   height: 71px;
-  right: 109px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  gap: 91px;
+  margin-left: 5px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 header nav li {
-  list-style-type: none;
   font-size: 22px;
+  margin-right: 91px;
   line-height: 26.63px;
-  text-decoration: none;
 }
 
 header nav ul li a {
