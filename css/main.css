@@ -84,9 +84,9 @@ header nav ul li a:hover {
 
 .my-work-grid {
   display: grid;
-  margin: 118px 118px 118px 118px;
+  margin: 35px 118px 118px 118px;
   grid-template-columns: 335px 335px 335px;
-  grid-template-rows: 575px 575px;
+  grid-template-rows: 588px 588px;
   grid-gap: 20px;
 }
 
@@ -105,4 +105,18 @@ section a {
   background-color: rgba(97, 93, 93, 1);
   color: #FFFFFF;
   border-radius: 2px;
+}
+
+.my-work-image {
+  width: 335px;
+  height: 395px;
+  margin: 0;
+}
+
+.my-work-text {
+  width: 309px;
+  height: 167px;
+  margin: 0;
+  padding: 13px 13px 13px 13px;
+  background-color: rgba(242, 242, 242, 1);
 }
