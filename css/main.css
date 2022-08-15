@@ -5,6 +5,9 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
 }
 
 img {
@@ -15,9 +18,6 @@ img {
 }
 
 header {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
   color: #FFFFFF;
 }
 
@@ -30,7 +30,6 @@ h1 {
   font-size: 67.34px;
   line-height: 81.5px;
   text-align: center;
-  color: #FFFFFF;
 }
 
 header nav ul {
