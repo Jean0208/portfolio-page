@@ -120,3 +120,27 @@ section a {
   padding: 13px 13px 13px 13px;
   background-color: rgba(242, 242, 242, 1);
 }
+
+#contact-me {
+  width: 1275px;
+  text-align: center;
+}
+
+hr {
+  margin-left: 127px;
+  margin-bottom: 7px;
+  width: 1044px;
+  align: center;
+  border-width: 1px;
+  border-style: inset;
+}
+
+footer {
+  bottom: 4px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 14px;
+}
