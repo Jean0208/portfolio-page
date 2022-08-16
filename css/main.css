@@ -23,7 +23,7 @@ header {
 
 h1 {
   position: absolute;
-  widows: 451px;
+  width: 451px;
   height: 166px;
   left: 92px;
   top: 493px;
@@ -151,7 +151,6 @@ hr {
   margin-left: 127px;
   margin-bottom: 7px;
   width: 1044px;
-  align: center;
   border-width: 1.5px;
   border-style: solid;
   border-color: #F2F2F2;
