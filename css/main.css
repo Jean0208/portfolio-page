@@ -40,7 +40,7 @@ h2 {
 
 h3 {
   font-size: 21.33px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
 header nav ul {
@@ -71,7 +71,7 @@ header nav ul li a:hover {
 
 #about-me {
   display: grid;
-  margin: 0;
+  margin-left: 19px;
   padding: 109px 109px 109px 109px;
   grid-template-columns: 464px 464px;
   grid-gap: 87px;
@@ -84,7 +84,7 @@ header nav ul li a:hover {
 
 .my-work-grid {
   display: grid;
-  margin: 35px 118px 118px 118px;
+  margin: 35px 118px 110px 118px;
   grid-template-columns: 335px 335px 335px;
   grid-template-rows: 588px 588px;
   grid-gap: 20px;
@@ -100,7 +100,7 @@ section a {
   width: 125px;
   height: 23px;
   font-size: 14px;
-  padding-top: 3px;
+  padding-top: 4px;
   text-align: center;
   background-color: rgba(97, 93, 93, 1);
   color: #FFFFFF;
@@ -117,7 +117,7 @@ section a {
   width: 309px;
   height: 167px;
   margin: 0;
-  padding: 13px 13px 13px 13px;
+  padding: 10px 13px 15px 13px;
   background-color: rgba(242, 242, 242, 1);
 }
 
@@ -131,8 +131,9 @@ hr {
   margin-bottom: 7px;
   width: 1044px;
   align: center;
-  border-width: 1px;
-  border-style: inset;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #F2F2F2;
 }
 
 footer {
