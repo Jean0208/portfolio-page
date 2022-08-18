@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-* {
+html {
+  background-color: #FFFFFF;
+}
+
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -8,6 +12,11 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+}
+
+body {
+  margin: auto;
+  width: 1280px;
 }
 
 header img {
@@ -22,9 +31,9 @@ header {
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   width: 451px;
-  height: 166px;
+  height: 0px;
   left: 92px;
   top: 493px;
   font-size: 67.34px;
